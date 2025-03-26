@@ -1,0 +1,22 @@
+/* CSS personnalisé pour compenser la suppression des éléments */
+
+/* Correction de l'espacement dans le header après suppression du bouton thème */
+header .container {
+    gap: 1rem;
+}
+
+/* Ajustements pour compenser l'absence du lien "Aller au contenu principal" */
+.notification-bar {
+    margin-bottom: 0;
+}
+
+/* Cache les éléments liés au thème sombre qui pourraient encore être présents */
+.simple-dark-mode-toggle, 
+.skip-to-content {
+    display: none !important;
+}
+
+/* S'assurer que la navigation est correctement alignée */
+nav {
+    margin-left: auto;
+}
